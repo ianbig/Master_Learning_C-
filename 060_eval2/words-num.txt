@@ -1,0 +1,12 @@
+animal:dragon
+place:cave
+adjective:peculiar
+animal:walrus
+adjective:scary
+Apple:Huge
+adjective:peaceful
+1:good
+2:awesome
+3:haha
+Apple:BIG!!!
+first:people

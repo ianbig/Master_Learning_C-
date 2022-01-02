@@ -1,0 +1,29 @@
+step1:
+	1. test all the normal cases (pass all the pregrader)
+	2. test abnormal cases
+	   - overflow ./tests/step1/page1.txt
+	   - wrong format in pages
+	     a. no # ./tests/step1/page2.txt
+	     b. something # something ./tests/step1/page3.txt
+	     c. [some space] #) ./tests/step1/page4.txt
+	   - wrong format in navigation (no :)
+	   - wrong filename
+	     a. page
+	     b. page100
+	     c. pag100.txt
+	     d. pagetxt.abc
+	     e. page.txt.txt
+
+step2:
+	phase 1: group story
+	      Success
+		a. file with page1.txt ~ page5.txt (with page10.txt and page11.txt)
+	      Error:
+		a. directory with no files
+	      	b. dir w/o page1.txt
+	phase 2 : validate story
+	phase 3: print story
+
+
+Code to refactor:
+     write comment

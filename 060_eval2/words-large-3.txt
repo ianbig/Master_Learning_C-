@@ -1,0 +1,11 @@
+animal:dragon
+animal:walrus
+John:good
+JohnL:Dav
+place:cave
+adjective:peculiar
+adjective:scary
+adjective:peaceful
+Apple:BIG!!!
+Apple:Huge
+first:people

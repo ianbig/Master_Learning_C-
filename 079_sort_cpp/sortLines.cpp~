@@ -1,0 +1,29 @@
+#include <cstdlib>
+#include <fstream>
+#include <iostream>
+
+void sortFile(std::istream & f) {
+}
+
+int main(int argc, char ** argv) {
+  bool in = false;
+  if (argc == 1) {
+    // input from std in
+    sortFile(std::cin);
+  }
+
+  else {
+    for (int i = 1; i < argc; i++) {
+      std::ifstream f;
+      f.open(argv[i], std::ifstream::in);
+      if (!f.is_open()) {
+        std::cerr << argv[i] << "is not exist" << std::endl;
+        return EXIT_FAILURE;
+      }
+      sortFile(f);
+      f.close();
+    }
+  }
+
+  return EXIT_SUCCESS;
+}

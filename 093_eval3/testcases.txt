@@ -1,0 +1,14 @@
+#error
+cyoa-step4 /usr/local/ece551/cyoa/broken1
+cyoa-step4 /usr/local/ece551/cyoa/broken2
+
+#success
+cyoa-step4 ./story1
+cyoa-step4 ./story2/
+cyoa-step4 /usr/local/ece551/cyoa/cycle
+cyoa-step4 /usr/local/ece551/cyoa/story-diamond-win
+cyoa-step4 /usr/local/ece551/cyoa/no_win
+cyoa-step4 ./tests/step4/mpath_to_1w
+cyoa-step4 ./tests/step4/no_win_path
+cyoa-step4 ./tests/step4/cycle
+cyoa-step4 ./tests/step4/cycle2

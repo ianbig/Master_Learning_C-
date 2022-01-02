@@ -1,0 +1,10 @@
+#include <iostream>
+
+#include "map.h"
+
+template<typename T, typename V>
+class TestMap {
+  BstMap < public : void testAdd() {}
+
+  void travers
+};

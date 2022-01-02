@@ -1,0 +1,2 @@
+sort: sortLines.cpp
+	g++ -Wall -Werror -pedantic -std=gnu++03 $< -o $@

@@ -1,0 +1,3 @@
+SOURCE = search.cpp test-bsearch.cpp
+test: $(SOURCE)
+	g++ -o $@ -Wall -Werror -pedantic --std=gnu++98 $(SOURCE)

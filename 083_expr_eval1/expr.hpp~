@@ -1,0 +1,28 @@
+#ifndef _EXPR_HPP
+#define _EXPR_HPP
+
+#include <iostream>
+#include <sstream>
+#include <string>
+
+class Expression {
+ public:
+  virtual std::string toString() const = 0;
+  virtual ~Expression() = 0;  //TODO: check whether this is valid
+};
+
+class NumExpression : public Expression {
+  int val;
+
+ public:
+  NumExpression(long val_s) : val(val_s) {}
+  virtual std::string toString() const {
+    std::stringstream ss;
+    ss << val;
+
+    return ss.str();
+  }
+
+  virtual ~NumExpression() {}
+}
+#endif

@@ -1,0 +1,32 @@
+#error
+story-step4
+story-step4 words.txt
+story-step4 words-test-error-1.txt story2.txt
+story-step4 words.txt -n story.txt
+story-step4 words.txt story.txt -n
+story-step4 words.txt parsed-error-1.txt
+story-step4 words.txt parsed-error-2.txt
+story-step4 words.txt parsed-error-3.txt
+story-step4 story2.txt words.txt
+story-step4 words.txt ref-test-error-1.txt
+story-step4 words.txt ref-test-error-2.txt
+story-step4 words.txt ref-test-error-3.txt
+story-step4 words.txt ref-test-error-4.txt
+story-step4 -n words.txt parsed-error-1.txt
+story-step4 -n words.txt parsed-error-2.txt
+story-step4 -n words.txt parsed-error-3.txt
+story-step4 -n story2.txt words.txt
+story-step4 -n words.txt ref-test-error-1.txt
+story-step4 -n words.txt ref-test-error-2.txt
+story-step4 -n words.txt ref-test-error-3.txt
+story-step4 -n words.txt ref-test-error-4.txt
+
+#success
+story-step4 words.txt story.txt
+story-step4 words.txt story2.txt
+story-step4 words.txt ref-test-1.txt
+story-step4 words.txt ref-test-2.txt
+story-step4 words-large-3.txt ref-test-3.txt
+story-step4 -n words.txt story.txt
+story-step4 -n words.txt story2.txt
+story-step4 -n words.txt ref-test-2.txt

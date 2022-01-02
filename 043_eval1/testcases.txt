@@ -1,0 +1,31 @@
+#error
+printCountries
+printCountries nonExistFile.csv
+printCountries population.csv population.csv
+printCountries comma-error-many-comma.csv
+printCountries comma-error-no-comma.csv
+printCountries countryName-long.csv
+printCountries number-overflow.csv
+printDailyMax population.csv daily_lose_data.csv
+printDailyMax population.csv daily_small_more_country.csv
+printCumulative population.csv daily_lose_data.csv
+printRunningAvg population.csv daily_lose_data.csv
+printRunningAvg population_empty.csv daily_small.csv
+printCumulative population_empty.csv daily_small.csv
+printDailyMax population_empty.csv daily_small.csv
+
+#success
+printCountries population.csv
+printCountries population_neg.csv
+printCountries population_empty.csv
+printCountries population-error-digit.csv
+printRunningAvg population.csv daily_cases.csv
+printRunningAvg population.csv empty_cases.csv
+printRunningAvg population.csv daily_smaller7.csv
+printCumulative population.csv daily_small.csv
+printCumulative population.csv daily_cases.csv
+printDailyMax population.csv daily_cases.csv
+printDailyMax population.csv daily_tie.csv
+printDailyMax population.csv daily_tie_one_country.csv
+printDailyMax population.csv empty_cases.csv
+printCumulative population.csv empty_cases.csv

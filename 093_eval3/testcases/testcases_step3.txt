@@ -1,0 +1,21 @@
+#error
+cyoa-step3 /usr/local/ece551/cyoa/broken1/
+cyoa-step3 /usr/local/ece551/cyoa/broken2/
+cyoa-step3 ./tests/step1/
+cyoa-step3 ./tests/step2/no_1
+cyoa-step3 ./tests/step2/no_lose
+cyoa-step3 ./tests/step2/ref_not_in_story
+cyoa-step3 ./tests/step2/miss_ref
+
+
+#success
+cyoa-step3 /usr/local/ece551/cyoa/story-diamond-win/
+cyoa-step3 /usr/local/ece551/cyoa/cycle/
+cyoa-step3 /usr/local/ece551/cyoa/no_win/
+cyoa-step3 ./tests/step3/small_tests
+cyoa-step3 ./story1
+cyoa-step3 ./story2/
+cyoa-step3 ./tests/step4/mpath_to_1w
+cyoa-step3 ./tests/step4/no_win_path
+cyoa-step3 ./tests/step4/cycle
+cyoa-step3 ./tests/step4/cycle2

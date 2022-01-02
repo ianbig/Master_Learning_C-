@@ -1,0 +1,12 @@
+#ifndef _POINT_CPP
+#define _POINT_CPP
+
+class Point {
+  double x;
+  double y;
+
+ public:
+  Point() : x(0), y(0) {}
+};
+
+#endif

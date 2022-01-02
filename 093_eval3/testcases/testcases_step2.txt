@@ -1,0 +1,12 @@
+#error
+cyoa-step2 ./tests/step2/no_1
+cyoa-step2 ./tests/step2/no_win
+cyoa-step2 ./tests/step2/no_lose
+cyoa-step2 ./tests/step2/ref_not_in_story
+cyoa-step2 ./tests/step2/miss_ref
+
+#success
+cyoa-step2 ./story1 < ./tests/step2/input_test/in_1_2_5_14.txt
+cyoa-step2 ./story1 < ./tests/step2/input_test/in_1_2_6.txt
+cyoa-step2 ./story2 < ./tests/step2/input_test/i2n_1_3.txt
+cyoa-step2 ./story2 < ./tests/step2/input_test/i2n_1_2_6_7_12_9

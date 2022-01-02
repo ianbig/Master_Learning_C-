@@ -1,0 +1,10 @@
+Grading at 09/27/2021:15:53:41.862967
+For commit ID d603550e8a40d0f784f1facf3d5e6731993db3e1
+Grading at Mon Sep 27 11:53:40 EDT 2021
+Your file matched the expected output
+Your output matched what we expected
+Attempting to compile test.c
+  - Valgrind was clean (no errors, no memory leaks)
+valgrind was clean
+
+Overall Grade: A

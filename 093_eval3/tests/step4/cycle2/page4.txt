@@ -1,0 +1,6 @@
+5:point to page 2
+6:point to page 2
+1:point to page 2
+#
+Your famed sword Ice becomes embedded in the dragon's neck scales, and the
+dragon rolls over, crushing you.
